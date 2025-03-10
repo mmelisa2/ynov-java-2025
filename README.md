@@ -155,9 +155,9 @@ You should respect the Java naming conventions and the best practices (avoid pub
 Commit and push your code as soon as possible to keep track of your work (and avoid losing it).  
 Use abstract classes, interfaces, enums, etc. when needed or when you think it's a good idea.
 
-### 1. CarType Enum
+### 1. VehicleType Enum
 
-Create an enum `CarType` that contains the following values:
+Create an enum `VehicleType` that contains the following values:
 - `SEDAN`
 - `SUV`
 - `SPORT`
@@ -170,12 +170,12 @@ Create a class `Vehicle` with the following attributes:
 - `plate` (String)
 - `brand` (String or Brand enum if you want to create it)
 - `model` (String)
-- `type` (CarType)
+- `type` (VehicleType)
 - `year` (int)
 
-### 3. Car, Truck, Van, SportCar, Sedan, SUV Classes
+### 3. Truck, Van, SportCar, Sedan, SUV Classes
 
-Create classes that extend the `Vehicle` class for each type of vehicle. You should call a super constructor with the attributes of the vehicle.
+Create classes that extends the `Vehicle` class for each type of vehicle. You should call a super constructor with the attributes of the vehicle.
 
 ### 4. Rentable Interface
 
